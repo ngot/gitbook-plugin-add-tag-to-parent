@@ -3,7 +3,7 @@ require(["gitbook"], function (gitbook) {
 
     // Init configuration at start
     gitbook.events.bind('start', function(e, config) {
-        _config = config['add-tag-to-parent'];
+        _config = config['add-path-to-parent'];
     });
 
     gitbook.events.bind("page.change", function (e) {
